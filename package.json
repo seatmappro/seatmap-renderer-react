@@ -1,0 +1,36 @@
+{
+  "name": "@seatmap.pro/react-renderer",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/index.mjs",
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "tsc": "tsc",
+    "prettify": "prettier . --write"
+  },
+  "dependencies": {
+    "@seatmap.pro/booking-renderer": "*",
+    "@seatmap.pro/renderer": "*"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.8.0",
+    "prettier": "3.3.2",
+    "typescript": "5.1.5",
+    "tsup": "8.3.0"
+  }
+}
