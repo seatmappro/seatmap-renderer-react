@@ -1,2 +1,2 @@
 # seatmap-renderer-react
-React wrapper for the seatmap.pro js library
+React wrapper for the https://seatmap.pro js library
